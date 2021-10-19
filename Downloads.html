@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <link href="funtionscript1.js">
+    <body>
+        <head>
+            <div class="div1">
+                <a style="text-decoration: none;" href="Downloads.html">
+                    <h2 class="DownloadsLabel">Downloads</h2>
+                </a>
+
+
+
+                <div class="div2">
+
+                    <button onclick="HomeBttnClick()" class="HomeBttn">Home</button>
+                    <button onclick="DownloadsBttnClick()" class="DownloadsBttn">Downloads</button>
+
+                </div>
+
+                
+            </div>
+
+            <div class="DownloadContainer">
+
+                <h3 class="DwonloadsHeading">Game 1</h2>
+                <div>
+                    <br>
+                    <img class="Screen1" src="Images/Game_Screenshot1.png" alt="Screen1">  <button onclick="Game1BttnClick()" class="Game1Bttn">Download Game</button>
+                    <br>
+                    <h3 class="Game1Name">Jump and Run Game</h3>
+                    <br>
+                    <img class="Screen2" src="Images/Game_Screenshot2.png" alt="Sreen2">
+                    <br>
+                </div>
+
+                <div class="Game1_Description_Container">
+                    <h3 class="Game1_Description_Header">Beschreibung</h3>
+                    <p class="Game1_Description">Dieses Spiel ist ein Standard Jump and Run Game. Die Aufgabe besteht darin nicht zu Sterben und das Ziel zu erreichen. Die Level sind alle immer neu gestaltet und es kommen immer mehr neue features dazu!</p>
+                </div>
+
+
+
+            </div>
+        </head>
+    </body>
+
+    <script>
+        function HomeBttnClick(){
+            window.location.href = 'Home.html';
+}
+
+        function DownloadsBttnClick(){
+            window.location.href = 'Downloads.html'
+        }
+
+        function Game1BttnClick(){
+            window.open('Geometry Dash.zip');
+        }
+    </script>
+
+</html>

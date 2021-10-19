@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <link href="funtionscript1.js">
+    <body>
+        <head>
+            <div class="div1">
+                <a style="text-decoration: none;" href="Home.html">
+                    <h2 class="HomeLabel">Home</h2>
+                </a>
+
+
+
+                <div class="div2">
+
+                    <button onclick="HomeBttnClick()" class="HomeBttn">Home</button>
+                    <button id="downloadbttn" name="downloadbttn" onclick="DownloadsBttnClick()" class="DownloadsBttn">Downloads</button>
+
+                </div>
+
+                
+            </div>
+
+            <div class="HomeContainer">
+
+            </div>
+        </head>
+    </body>
+
+    <script>
+        function HomeBttnClick(){
+            window.location.href = 'Home.html';
+}
+
+        function DownloadsBttnClick(){
+            window.location.href = 'Downloads.html'
+        }
+    </script>
+
+</html>
