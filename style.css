@@ -1,0 +1,291 @@
+body{
+    background-color: rgb(62, 61, 66);
+}
+
+
+
+h2{
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    font-family: Arial;
+    margin: 30px;
+    outline-style: groove;
+    outline-width: 5px;
+    outline-offset: 10px;
+}
+
+
+
+
+.UL{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+    height: 50px;
+
+}
+
+.UB{
+    color: black;
+    margin-bottom: 60px;
+    font-size: 25px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+    height: 35px;
+}
+
+
+.PL{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+    height: 50px;
+}
+
+.PB{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: arial;
+    width: 500px;
+    height: 35px;
+}
+
+
+.LogInBttn{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    background-color: rgb(230, 233, 60);
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 0 #06a0f9;
+    outline: none;
+    font-size: 2rem;
+}
+
+.LogInBttn:hover{
+    color: #fff;
+    box-shadow: inset 300px 0 0 0 #06a0f9;
+    cursor: pointer;
+}
+
+.RL{
+    font-size: 20px;
+    color: blue;
+}
+
+
+
+
+
+.LogInPanel{
+    margin-top: 100px;
+    margin-left: 650px;
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.div1{
+    text-align: center;
+    
+}
+
+.div2{
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    width: 1850px;
+    height: 100px;
+    position: relative;
+
+}
+
+.DownloadsBttn{
+    margin-top: 15px;
+    margin: 20px;
+    margin-left: 33px;
+    margin-right: -335px;
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    background-color: grey;
+    border-radius: 2px;
+    color: white;
+    border-style: groove;
+    transition: 0.6s;
+    border-color: gray;
+    cursor: pointer;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.HomeBttn{
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    margin-left: -332px;
+    font-size: 30px;
+    background-color: grey;
+    border-radius: 2px;
+    color: white;
+    border-style: groove;
+    transition: 0.6s;
+    border-color: gray;
+    cursor: pointer;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.HomeBttn:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.DownloadsBttn:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.DownloadContainer{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(50, 49, 53);
+    width: 1850px;
+    height: 1360px;
+    position: relative;
+    bottom: 35px;
+}
+
+.HomeContainer{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(50, 49, 53);
+    width: 1860px;
+    height: 1360px;
+}
+
+.Screen1{
+    padding: 30px;
+    width: 1000px;
+    height: 500px;
+    outline-style: groove;
+    outline-offset: -30px;
+    position: relative;
+    right: 220px;
+}
+
+
+
+.Screen2{
+    padding: 30px;
+    width: 1000px;
+    height: 500px;
+    outline-style: groove;
+    outline-offset: -30px;
+    position: relative;
+    right: 350px;
+    bottom: 100px;
+}
+
+
+.DwonloadsHeading{
+    font-family: Arial;
+    padding: 30px;
+    font-size: 35px;
+    outline-style: groove;
+    outline-offset: -20px;
+}
+
+.Game1Bttn{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    width: 250px;
+    height: 70px;
+    position: relative;
+    bottom: 350px;
+    background-color: gainsboro;
+    color: black;
+    transition: 0.8s;
+    box-shadow: gray;
+    border: none;
+    cursor: pointer;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Game1Bttn:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0, 1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.Game1Name{
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    position: relative;
+    outline-style: groove;
+    outline-offset: 10px;
+    width: 400px;
+    left: 1250px;
+    bottom: 550px;
+}
+
+.Game1_Description{
+    padding: 15px;
+    font-size: 25px;
+    position: relative;
+    bottom: 45px;
+    font-family: Cambria;
+}
+
+.Game1_Description_Container{
+    background-color: darkgray;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    left: 1230px;
+    bottom: 530px;
+}
+
+.Game1_Description_Header{
+    font-family: Arial;
+    font-size: 25px;
+    position: relative;
+    outline-style: groove;
+    outline-offset: 10px;
+    bottom: 100px;
+}
+
+
