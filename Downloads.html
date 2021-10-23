@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+    <body>
+        <head>
+            <div class="div1">
+                <a style="text-decoration: none;" href="Downloads.html">
+                    <h2 class="DownloadsLabel">Downloads</h2>
+                </a>
+
+
+
+                <div class="div2">
+
+                    <button onclick="HomeBttnClick()" class="HomeBttn">Home</button>
+                    <button onclick="DownloadsBttnClick()" class="DownloadsBttn">Downloads</button>
+
+                </div>
+
+                
+            </div>
+
+            <div class="Download_Games">
+
+                <h3 class="DownloadsHeading">Games</h2>
+                <div>
+                    <br>
+                    <img class="Game_Screen1" src="Images/Game_Screenshot1.png" alt="Screen1">  <button onclick="Game1BttnClick()" class="Game1Bttn">Download Game</button>
+                    <br>
+                    <h3 class="Game1Name">SPACE GAME</h3>
+                    <br>
+                    <img class="Game_Screen2" src="Images/Game_Screenshot2.png" alt="Sreen2">
+                    <br>
+                </div>
+
+                <div class="Game1_Description_Container">
+                    <h3 class="Game1_Description_Header">Beschreibung</h3>
+                    <p class="Game1_Description">Dieses Spiel ist ein 2D Space Game. Deine Aufgabe besthet darin Asteroiden abzuschießen und damit Punkte zu gewinnen. Manchmal spawnen zufällige items womit du zum Beispiel schneller schießen kannst oder 2 Waffen hast.</p>
+                    <br>
+                    <h3 class="SoftwareHeadings">Software</h3>
+                </div>
+
+            </div>
+
+            <div class="Download_Softwares">
+
+            
+
+                <h3 class="Download2Heading"></h3>
+                  
+                <div>
+                    <br>
+                     <img class="Software_Screen1" src="Images/Software_Screenshot1.png" alt="Software_Screen1"> <button onclick="Software1BttnClick()" class="Software1Bttn">Download Software</button>
+                     <br>
+                    <h3 class="Software1Name">GAUTIOS</h3>
+                    <br>
+                    <img class="Software_Screen2" src="Images/Software_Screenshot2.png" alt="Software_Screen2">
+                     <br>
+              </div>
+                  <div class="Software1_Description_Container">
+                      <h3 class="Software1_Description_Header">Beschreibung</h3>
+                       <p class="Software1_Description">Diese Software ist ein Porgramm womit du Deine Lieblings Spiele/Apps hinzufügen kannst und dann hiermit Schnell starten kannst. Das bedeutet du must deinen Desktop nicht mit den Shortcuts voll Müllen, mit dieser App kannst du deinen Desktop schön sauber halten und deinen Desktop Hintergrund betrachten.</p>
+                  </div>
+
+            </div>
+
+
+
+
+
+
+                
+
+            
+
+
+
+        </head>
+    </body>
+
+    <script>
+        function HomeBttnClick(){
+            window.location.href = 'Home.html';
+}
+
+        function DownloadsBttnClick(){
+            window.location.href = 'Downloads.html'
+        }
+
+        function Game1BttnClick(){
+            window.open('Space Game.zip');
+        }
+
+        function Software1BttnClick(){
+            window.open('Gautios.zip');
+        }
+    </script>
+
+</html>
